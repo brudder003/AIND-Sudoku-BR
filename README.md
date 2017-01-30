@@ -17,7 +17,8 @@ the search space. We propagate over units until the problem is solved or we need
 to make further progress.
 
 # Question 2 (Diagonal Sudoku)
-Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
+Q: How do we use constraint propagation to solve the diagonal sudoku problem?
+
 A: Using the same description of constraint as Question 1 (and lesson 7), we have the local constraint that the main
 diagonals on the sudoku board must each contain the numbers 1 through 9. This is the same as the constraint we already
 have for individual rows, columns and 3x3 squares (which are defined as units in lesson 3). We add a list of boxes from
